@@ -1,0 +1,257 @@
+.navbar{
+    border-bottom: solid #b71c1c 7px;
+    font-family: 'Bree Serif', serif;
+    font-size: 15px;
+}
+
+.navbar li a:hover{
+    border-bottom: solid #b71c1c 2px;
+    height: 40px;
+}
+
+
+.alcaldia{
+    background-color: #b71c1c ;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+/*CARRUSEL*/
+
+
+.carousel-inner{
+    width: 100%;
+    max-height: 90vh;
+}
+
+.item{
+    width: 100%;
+    max-height: 90vh;
+
+}
+
+.carousel-caption{
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.item img{
+    width: 100%;    
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    font-size: 50px;
+
+}
+/*MARKETING*/
+.conten{
+    width: 100%;
+    background-color: #e3e3e3;
+    margin-top: -30px;
+}
+.marketing{
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+.marketing h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+.marketing h3{
+    font-family: 'Bree Serif', serif;
+}
+.marketing h3, p{
+    text-align: center;
+}
+.icono{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #b71c1c;
+
+}
+
+.icono span{
+    font-size: 55px;
+    color: white;
+}
+.uno{
+    padding: 10px;
+}
+.uno:hover{
+    background-color: #fef2f2;
+
+}
+
+/*Algunas obras desarrolladas*/
+
+.espacio-top{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.espacio-top h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Bree Serif', serif;
+}
+
+.featurette-divider{
+    border-bottom: solid gainsboro 1px;
+}
+.featurette img{
+    border-radius: 10px;
+}
+
+
+/*INICIO FOOTER*/
+.footer .container .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    background-color: gray;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-family: 'Bree Serif', serif;
+}
+.izquierdo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.izquierdo a{
+    font-size: 19px;
+    color: white;
+}
+
+.centro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centro .tel, .face, .tw{
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.centro .tel{
+    background-color: #e3e3e3;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.centro .face{
+    background-color: #3751c7;
+    color: white;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.centro .tw{
+    background-color: #7180c1;
+    color: white;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.fin{
+    width: 100%;
+    height: auto;
+    background-color: #b71c1c;
+    text-align: center;
+    color: white;
+    padding: 10px 10px 10px;
+}
+
+.concejo{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.transparencia{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.transparencia:hover{
+    background-color: #e3e3e3;
+
+}
+
+.transparencia a{
+    font-size: 18px;
+}
+
+.con{
+    font-family: 'Bree Serif', serif;
+}
+
+.contac{
+    margin: 0 10px 0;
+}
+
+@media (min-width: 320px){
+    .carousel-caption{
+        height: 80px;
+    }
+    .carousel-caption h1{
+        font-size: 17px;
+    }
+
+    .concejo{
+        margin-top: 100px;
+    }
+    .con{
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 600px){
+    .carousel-caption{
+        height: 120px;
+
+    }
+    .carousel-caption h1{
+        font-size: 25px;
+
+    }
+    .concejo{
+        margin-top: 80px;
+    }
+
+
+}
+
+
+@media (min-width:  992px){
+
+    .carousel-caption{
+        height: 150px;
+    }
+    .carousel-caption h1{
+        font-size: 40px;
+    }
+
+    .footer .container .row{
+        flex-direction: row;
+    }    
+    .concejo{
+        margin-top: 30px;
+    }
+}
